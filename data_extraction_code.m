@@ -1,14 +1,14 @@
 clc
-
+clear
 
 % Define Simulation Model
 modelName = 'circuit_breaker_model';
 open_system(modelName);
 
-% Define Sensors
 positionSensor = 'Motion_Sensor';
 currentSensor = 'Breaker_Current_Sensor';
 voltageSensor = 'Solenoid_Voltage_Sensor';
+
 
 % Run Simulation
 simOut = sim(modelName);
