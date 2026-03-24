@@ -1,7 +1,6 @@
 clc
 clear
 
-% Define Simulation Model
 modelName = 'circuit_breaker_model';
 open_system(modelName);
 
